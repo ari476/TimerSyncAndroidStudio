@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "955722165048",
+    "project_id": "timer-sync-a5297",
+    "storage_bucket": "timer-sync-a5297.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:955722165048:android:4edcdee138f449ff2bafcd",
+        "android_client_info": {
+          "package_name": "com.example.timer_sync"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "955722165048-mou0psk2am33is2ehtv4900qoomgoasn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB0FrvZ0Ff5xNmEWeYsVkVeYULQuFciRr8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "955722165048-mou0psk2am33is2ehtv4900qoomgoasn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

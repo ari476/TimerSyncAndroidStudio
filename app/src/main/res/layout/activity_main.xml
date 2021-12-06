@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backround"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/viewExtraTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:shadowColor="#FF9800"
+            android:shadowDx="5"
+            android:shadowDy="5"
+            android:shadowRadius="1.6"
+            android:text="Extra time plus 2'"
+            android:textColor="#F44336"
+            android:textSize="45dp"
+            android:textStyle="bold"
+            android:visibility="invisible"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteY="5dp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="140dp">
+
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/switch_btn"
+                android:layout_width="110dp"
+                android:layout_height="110dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/desing_color_btn"
+                android:shadowColor="#10B810"
+                android:shadowDx="3"
+                android:shadowDy="3"
+                android:shadowRadius="1.6"
+                android:text="switch to 8' min"
+                android:textColor="#CFDCD2"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/start_btn"
+                android:layout_width="110dp"
+                android:layout_height="110dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/desing_color_btn"
+                android:shadowColor="#10B810"
+                android:shadowDx="3"
+                android:shadowDy="3"
+                android:shadowRadius="1.6"
+                android:text="Start"
+                android:textColor="#CFDCD2"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/finish_btn"
+                android:layout_width="110dp"
+                android:layout_height="110dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/desing_color_btn"
+                android:enabled="false"
+                android:shadowColor="#10B810"
+                android:shadowDx="3"
+                android:shadowDy="3"
+                android:shadowRadius="1.6"
+                android:text="finish"
+                android:textColor="#CFDCD2"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+
+            <TextView
+                android:id="@+id/viewTime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:shadowColor="#10B810"
+                android:shadowDx="10"
+                android:shadowDy="10"
+                android:shadowRadius="1.6"
+                android:text="10:00"
+                android:textAlignment="gravity"
+                android:textColor="#CFDCD2"
+                android:textSize="120dp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toTopOf="@+id/circle_center"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.673"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="1.0"
+                tools:ignore="InvalidId,MissingConstraints" />
+
+            <ImageView
+                android:id="@+id/circle_center"
+                android:layout_width="250dp"
+                android:layout_height="250dp"
+                android:layout_below="@+id/viewTime"
+                android:layout_centerInParent="true"
+                android:layout_marginLeft="50dp"
+                android:background="@drawable/ball"
+                tools:ignore="MissingConstraints" />
+        </RelativeLayout>
+
+    </LinearLayout>
+</RelativeLayout>
