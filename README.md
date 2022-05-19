@@ -14,9 +14,8 @@ You have several options in the application
 I made a refector for this app and changed the interface of the app so that it is better designed
 
 ### Old interface:
-![image](https://user-images.githubusercontent.com/83061722/169230028-ee7ce55f-69ca-4021-8807-b2b6c2eb69eb.png)
+<img src="https://user-images.githubusercontent.com/83061722/169230974-eda450c9-1e18-4ea9-93fc-fa80e273c758.jpg" width="200" height="400" />
 
 ### New interface:
 <img src="https://user-images.githubusercontent.com/83061722/169229231-6d7fc31a-72c6-4b30-98ac-41fd934f4690.jpg" width="200" height="400" />
-
 
