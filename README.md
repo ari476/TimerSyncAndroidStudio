@@ -15,8 +15,8 @@ I made a refector for this app and changed the interface of the app so that it i
 
 <table>
   <tr>
-    <td>### Old interface:</td>
-     <td>### New interface:</td>
+    <td>Old interface:</td>
+     <td>New interface:</td>
   </tr>
   <tr>
     <td><img src="https://user-images.githubusercontent.com/83061722/169230974-eda450c9-1e18-4ea9-93fc-fa80e273c758.jpg" width="200" height="400" /></td>
