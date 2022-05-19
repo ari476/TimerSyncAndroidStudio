@@ -2,7 +2,7 @@
 timer sync between some of phone - designed for a football game
 
 # How to use
-You just need to get the apk and you can use in applicatino 
+You just need to get the apk and you can use in application
 
 Note that you must be connected to the network
 
